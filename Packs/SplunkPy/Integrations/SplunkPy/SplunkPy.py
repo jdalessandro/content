@@ -2207,8 +2207,6 @@ def main():
         splunk_job_create_command(service)
     elif command == 'splunk-results':
         splunk_results_command(service)
-    elif command == 'fetch-incidents':
-        fetch_incidents(service)
     elif command == 'splunk-get-indexes':
         splunk_get_indexes_command(service)
     elif command == 'fetch-incidents':
